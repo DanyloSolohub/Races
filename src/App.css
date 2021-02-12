@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+html, body {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.field {
+    width: 1000px;
+    height: 800px;
+    background-color: #505050;
+    position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cars {
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+#driftingCar_1 {
+    position: absolute;
+    top: 750px;
+    left: 20px;
+    transform: rotate(-90deg);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#driftingCar_2 {
+    position: absolute;
+    top: 750px;
+    left: 90px;
+    transform: rotate(-90deg);
+}
+.fieldWW{
+    position: relative;
+}
+#bottom{
+    background-color: firebrick;
+    width: 1020px;
+    height: 20px;
+    left: -10px;
+    top: 800px;
+    position: absolute;
+}
+#top{
+    background-color: firebrick;
+    width: 1020px;
+    height: 20px;
+    left: -10px;
+    top: -20px;
+    position: absolute;
+}
+#left{
+    background-color: firebrick;
+    width: 20px;
+    height: 840px;
+    left: -20px;
+    top: -20px;
+    position: absolute;
+}
+#right{
+    background-color: firebrick;
+    width: 20px;
+    height: 840px;
+    left: 1000px;
+    top: -20px;
+    position: absolute;
+}
+#first_turn{
+    width: 10px;
+    background-color: firebrick;
+    height: 460px;
+    left: 170px;
+    top: 170px;
+    position: absolute;
+}
+#second_turn{
+    width: 660px;
+    background-color: firebrick;
+    height: 10px;
+    left: 170px;
+    top: 170px;
+    position: absolute;
+}
+#third_turn{
+    width: 10px;
+    background-color: firebrick;
+    height: 460px;
+    left: 830px;
+    top: 170px;
+    position: absolute;
 }
