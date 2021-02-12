@@ -20,13 +20,13 @@ body {
     position: relative;
 }
 
-#driftingCar_1 {
+#plane_1 {
     position: absolute;
     top: 750px;
     left: 20px;
     transform: rotate(-90deg);
 }
-#driftingCar_2 {
+#plane_2 {
     position: absolute;
     top: 750px;
     left: 90px;
